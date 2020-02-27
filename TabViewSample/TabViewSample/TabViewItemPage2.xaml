@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TabViewSample.TabViewItemPage2">
+    <ContentPage.Content>
+         <StackLayout BackgroundColor="Green">
+            <Label Text="Page2"  VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
