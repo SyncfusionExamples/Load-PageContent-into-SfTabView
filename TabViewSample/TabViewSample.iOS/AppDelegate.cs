@@ -4,7 +4,6 @@ using System.Linq;
 
 using Foundation;
 using Syncfusion.XForms.iOS.TabView;
-using Syncfusion.XForms.iOS.Backdrop;
 using UIKit;
 
 namespace TabViewSample.iOS
@@ -26,7 +25,6 @@ namespace TabViewSample.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             SfTabViewRenderer.Init();
-            SfBackdropPageRenderer.Init();
             LoadApplication(new App());
            
             return base.FinishedLaunching(app, options);
