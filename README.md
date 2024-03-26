@@ -33,7 +33,7 @@ public MainPage()
     this.Content = tabView;  
 }  
 ```
-# Adding ListView in SfTabView
+## Adding ListView in SfTabView
 
 Create a view model class with the ContactsInfo collection property, which is initialized with required number of data objects.
 
@@ -69,7 +69,7 @@ public class ContactsViewModel : INotifyPropertyChanged
 }
 ```
 
-# Binding data to ListView
+## Binding data to ListView
 Bind the items source of the ListView, and set the required appearance in its ItemTemplate property in which the list view can be hosted within the content region of tab item.
 
 **[XAML]**
